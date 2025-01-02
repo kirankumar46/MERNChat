@@ -21,7 +21,7 @@ import { FaLeftLong } from "react-icons/fa6";
 import Lottie from 'react-lottie'
 import animationData from '../animations/typing.json'
 
-const ENDPOINT = "https://mernchat-backend-s126.onrender.com";
+const ENDPOINT = "http://localhost:5000";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
