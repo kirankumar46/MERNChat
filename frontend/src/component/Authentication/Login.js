@@ -45,7 +45,7 @@ const Login = () => {
         },
       };
       console.log('Sending data:', { email, password });
-      const { data } = await axios.post('https://mernchat-backend-s126.onrender.com/api/user/login', { email, password }, config);
+      const { data } = await axios.post('/api/user/login', { email, password }, config);
 
       setAlert({
         open: true,
